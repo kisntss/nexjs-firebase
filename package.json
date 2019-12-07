@@ -1,0 +1,22 @@
+{
+  "name": "ajonp-ajsbooks-nextjs",
+  "version": "1.0.0",
+  "description": "Next.js 9 sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs.git"
+  },
+  "keywords": [
+    "nextjs"
+  ],
+  "author": "Leonid Dimasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/issues"
+  },
+  "homepage": "https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs#readme"
+}
