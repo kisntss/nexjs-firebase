@@ -1,22 +1,43 @@
 {
   "name": "ajonp-ajsbooks-nextjs",
   "version": "1.0.0",
-  "description": "Next.js 9 sample",
+  "description": "This is a sample application showcasing the power of Next.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs.git"
+    "url": "git+https://github.com/kisntss/nexjs-firebase.git"
   },
   "keywords": [
-    "nextjs"
+    "nextjs",
+    "firestore",
+    "firebase",
+    "materialui"
   ],
-  "author": "Leonid Dimasov",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs/issues"
+    "url": "https://github.com/kisntss/nexjs-firebase/issues"
   },
-  "homepage": "https://github.com/AJONPLLC/ajonp-ajsbooks-nextjs#readme"
+  "homepage": "https://github.com/kisntss/nexjs-firebase#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.7.2",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.7.1",
+    "@types/next": "^9.0.0",
+    "@types/react": "^16.9.15",
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14"
+  }
 }
